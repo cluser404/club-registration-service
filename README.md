@@ -1,2 +1,2 @@
-# club-registration-server
-Generic club registration server
+# club-registration-service
+Generic club registration service
