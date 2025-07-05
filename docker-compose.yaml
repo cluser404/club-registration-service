@@ -1,0 +1,21 @@
+services:
+  app:
+    build: .
+    container_name: node-app
+    restart: unless-stopped
+    ports:
+      - "6969:6969"
+    environment:
+      - SERVE_PORT=6969
+      - MONGO_URL=mongodb://mongo:27017/registration-service
+    depends_on:
+      - mongo
+  
+  mongo:
+    image: bitnami/mongodb
+    container_name: mongo
+    restart: unless-stopped
+    # ports:
+    #   - "27017:27017"
+    volumes:
+      - /data/db
