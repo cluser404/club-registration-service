@@ -14,12 +14,12 @@ A generic and flexible **club registration service** designed for easy integrati
 3. Run the following command:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Stopping The Service
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ## Using it on Client or Other Backend
