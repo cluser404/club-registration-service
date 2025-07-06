@@ -87,7 +87,7 @@ const router = express.Router();
  *         linkedInProfileLink:
  *           type: string
  *           format: uri
- *         instragramProfileLink:
+ *         instagramProfileLink:
  *           type: string
  *           format: uri
  */

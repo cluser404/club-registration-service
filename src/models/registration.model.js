@@ -83,7 +83,7 @@ const registrationSchema = new mongoose.Schema({
     linkedInProfileLink: {
         type: String
     },
-    instragramProfileLink: {
+    instagramProfileLink: {
         type: String
     },
 

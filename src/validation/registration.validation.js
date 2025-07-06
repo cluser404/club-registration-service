@@ -44,7 +44,7 @@ const createRegistrationSchema = Joi.object({
     githubProfileLink: Joi.string().uri().optional(),
     facebookProfileLink: Joi.string().uri().optional(),
     linkedInProfileLink: Joi.string().uri().optional(),
-    instragramProfileLink: Joi.string().uri().optional()
+    instagramProfileLink: Joi.string().uri().optional()
 });
 
 const updateRegistrationSchema = createRegistrationSchema.fork(
