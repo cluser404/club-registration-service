@@ -13,6 +13,10 @@ const options = {
                 url: `http://localhost:${process.env.SERVE_PORT || 6969}/api`,
                 description: 'Development server',
             },
+            {
+                url: `https://api.reg.bracurobu.com/api`,
+                description: 'Production server',
+            },
         ],
     },
     apis: ['./src/routes/*.js'],
